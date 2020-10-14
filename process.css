@@ -15,7 +15,7 @@ body, html {
     width: 100%;
     height: 50px;
     background-color: grey;
-    /* opacity: 0.9; */
+    opacity: 0.9;
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid black
@@ -54,7 +54,7 @@ body, html {
 }
 
 .initial-motto {
-    top: 90%;
+    top: 20%;
     width: 100%;
     position: absolute;
     font-size: 4em;
@@ -63,8 +63,8 @@ body, html {
 }
 
 .showcase-logo-block {
-    background-color: black;
-    height: 100%;
+    background-color: grey;
+    height: 70%;
     width: 100%;
    
 }
@@ -72,25 +72,25 @@ body, html {
 .showcase-logo {
     height: 100%;
     width: 100%;
-    /* margin-left: 10%; */
+    
     top: 0px;
     position: fixed;
-    background-image: url("./assets/househigh.jpg") ;
+    background-image: url("./assets/kitchen.jpg") ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.7;
     
    
 }
 
 .business-logo {
-    height: 70%;
-    width: 40%;
-    top: 10%;
+    height: 100%;
+    
+    
     position: absolute;
     background-position: center;
-    margin-left: 30%;
+    margin-left: 10%;
     
     
     background-size: auto;
@@ -99,17 +99,18 @@ body, html {
 }
 .main-content-container {
    
-    height: 1400px;
+    height: 3400px;
     width: 100%;
     position: absolute;
     background-color: lightgrey;
-    opacity: 0.95;
+    
 }
 
-.bg-image {
+.steps {
     /* Full height */   
     max-height: 350px;
     height: 70%;
+    max-width: 50%;
     margin-left: 5%;
     
     
@@ -122,35 +123,65 @@ body, html {
     
   }
 
-  .img1{
+  .step1{
     background-image: url("./assets/kitchen.jpg"); 
       width:60%;
       height: 60%;
-      margin: 1% 0% 5% 5%;
+      /* margin: 1% 0% 5% 5%; */
+      margin: 1% 0% 5% 35%;
       
       
   }
-  .img2{
+  .step2{
     background-image: url("./assets/bathroom.jpg"); 
       width:60%;
-      margin: 1% 0% 5% 5%;
+      /* margin: 1% 0% 5% 35%; */
       
   }
-  .img3{
+  .step3{
     background-image: url("./assets/livingroom.jpg"); 
     
       width:60%;
-      margin: 1% 0% 5% 5%;
+      /* margin: 1% 0% 5% 5%; */
+      margin: 1% 0% 5% 35%;
+      
+  }
+  .step4{
+    background-image: url("./assets/bathroom.jpg"); 
+      width:60%;
+      /* margin: 1% 0% 5% 35%; */
+      
+  }
+  .step5{
+    background-image: url("./assets/livingroom.jpg"); 
+    
+      width:60%;
+      /* margin: 1% 0% 5% 5%; */
+      margin: 1% 0% 5% 35%;
+      
+  }
+  .step6{
+    background-image: url("./assets/bathroom.jpg"); 
+      width:60%;
+      /* margin: 1% 0% 5% 35%; */
+      
+  }
+  .step7{
+    background-image: url("./assets/livingroom.jpg"); 
+    
+      width:60%;
+      /* margin: 1% 0% 5% 5%; */
+      margin: 1% 0% 5% 35%;
       
   }
 
-  .img-title {
-      font-size: 2em;
-      padding-top: 5%;
+  .step-title {
+      font-size: 4em;
+      /* padding-top: 5%; */
       margin: 0% 0% 1% 105%;
   }
 
-  .img-description {
+  .step-description {
       width: 50%;
     margin: 0% 0% 1% 105%;
   }
@@ -168,3 +199,48 @@ body, html {
       right: 25%;
       margin-bottom: 15px;
   }
+
+  .step1 .step-description {
+    margin: 0% 90% 1% 0%;
+    float: right;
+    
+  }
+
+  .step1 .step-title {
+    margin: 0% 125% 1% 0%;
+   float: right; 
+  }
+
+  .step3 .step-description {
+    margin: 0% 100% 1% 0%;
+    float: right;
+    
+  }
+
+  .step3 .step-title {
+    margin: 0% 125% 1% 0%;
+   float: right; 
+  }
+
+  .step5 .step-description {
+    margin: 0% 100% 1% 0%;
+    float: right;
+    
+  }
+
+  .step5 .step-title {
+    margin: 0% 125% 1% 0%;
+   float: right; 
+  }
+  .step7 .step-description {
+    margin: 0% 100% 1% 0%;
+    float: right;
+    
+  }
+
+  .step7 .step-title {
+    margin: 0% 125% 1% 0%;
+   float: right; 
+  }
+
+ 
