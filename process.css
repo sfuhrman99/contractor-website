@@ -64,14 +64,16 @@ body, html {
 
 .showcase-logo-block {
     background-color: grey;
-    height: 660px;
+    height: 70%;
+    max-height: 660px;
     width: 100%;
     
    
 }
 
 .showcase-logo {
-  height: 660px;
+  height: 70%;
+  max-height: 660px;
     width: 100%;
     
     top: 0px;
@@ -175,7 +177,7 @@ body, html {
     
       width:60%;
       /* margin: 1% 0% 5% 5%; */
-      margin: 1% 0% 5% 45%;%;
+      margin: 1% 0% 5% 45%;
       
   }
 
