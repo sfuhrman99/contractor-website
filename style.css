@@ -1,14 +1,16 @@
+
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
     
   }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+}  
 .header-container {
     display: flex;
     position: absolute;
@@ -85,15 +87,15 @@ body, html {
 }
 
 .business-logo {
-    height: 70%;
-    width: 40%;
+    max-height: 70%;
+    max-width: 40%;
     top: 10%;
     position: absolute;
     background-position: center;
     margin-left: 30%;
     
     
-    background-size: auto;
+    
     
     
 }
